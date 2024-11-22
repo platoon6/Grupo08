@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{font: rgb(18, 19, 18);}
+                body{font-family:Verdana, Geneva, Tahoma, sans-serif}; 
+                h2{color:black}
+                h3{color:crimson}
+                h4{color:darkblue}
+
+                    .job{
+                    margin: 8px;
+                    width: 240px;
+                    height: 380px;
+                    background-color:cornflowerblue;
+                    }
+
+                    .menu{
+                        margin: 8px;
+                        width: 1200px;
+                        height: 380px;
+                        background-color:cornflowerblue;  
+                        h4{color:black}
+                        text-indent: 6px;
+                    }
+
+
+                    header{
+                        font-family:Verdana, Geneva, Tahoma, sans-serif;
+                        text-align:left; 
+                        padding: 2px;
+                        width: 100%;
+                        clear: both;
+                        
+                        
+                        h1{color: ghostwhite;}
+                        h5{color: ghostwhite;}
+                        h6{color: ghostwhite;}
+                        }
+
+                        footer{
+                            font-family:Verdana, Geneva, Tahoma, sans-serif;
+                            text-align:left; 
+                            padding: 6px;
+                            width: 100%;
+                            clear: both;
+                            background-color: black;
+                            text-indent: 8px;
+                            
+                            h1{color: ghostwhite;}
+                            h5{color: ghostwhite;}
+                            h6{color: ghostwhite;}
+                            }
+
+                    
+                    main{
+                    width:75%;
+                    height: 100%;
+                    text-indent: 12px;
+                    align-self: left;
+                    background-color:write
+                    }
+
+                    section{
+                    background-color: write;
+                    padding: 10px;
+                    align-self: left;
+                    text-align: left; 
+                    }
+
+                    .caixa-flexivel{
+                        display:inline-flex;
+                        flex-wrap:wrap; 
+                        justify-content: center;
+                        background-color: write;
+                        width: 100%;
+                        }
+
+                        .caixa-flexivel div{
+                            flex-wrap: nowrap; 
+                            background-color:write;
+                            width: 380px;
+                            margin: 10px;
+                            text-align: center;
+                            line-height: 40px;
+                            padding: 20px;
+                            font-size: 18px;
+                            align-self: center;
+                            }
+
+                            .navbar{
+                                background-color:black;
+                                padding: 24px;
+                            }
+.serviços{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 900px;
+    margin: 0 auto;
+    grid-gap: 40px;
+ }
+.cards {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    box-shadow: 6px 6px 10px #a0a0a09d ;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease
+}
+
+.user{
+    width: 100px; /* Define um tamanho máximo para a imagem */
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+
+}
+.stars {
+    width: 20px; /* Define um tamanho máximo para a imagem */
+}
+.checked {
+    color: orange;  
+}
+.falando {
+    font-family: Heebo;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007BFF
+}
+
+.serviços_s{
+    background-color: white;
+    display: grid;
+    max-width: 900px;
+    margin: 0 auto;
+    grid-gap: 40px;
+    font-family:serif
+
+ }
+
+ /* Contact Section */
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+/* About Section */
+
+.background-container {
+    position: relative;
+    background-image: url('public\assets\images\Idosos_Casal.jpeg'); /* Substitua pela URL da sua imagem */
+    background-size: cover; /* Faz com que a imagem cubra todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    padding: 20px;
+    color: black; /* Define a cor do texto para destacar sobre a imagem */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Adiciona sombra ao texto */
+}
+
+/* Estilo do parágrafo */
+.background-container p {
+    font-size: 1.2rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007BFF;
+}
+
+.about p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    text-align: justify;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #007BFF;
+}
+
+.service-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    background-color: #007BFF;
+    color: white;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #007BFF;
+    transition: color 0.3s ease;
+}
+
+.service-card:hover h3 {
+    color: white;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.service-card:hover p {
+    color: white;
+}
